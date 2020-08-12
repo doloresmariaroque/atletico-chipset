@@ -1,0 +1,47 @@
+.section__musica {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+	width: 100%;
+	margin: 30px 10px 10px 10px;
+	padding: 10px;
+}
+
+.section__singles {
+	background-color: black;
+	margin: 30px 30px 80px 30px;
+	padding: 40px;
+	display: grid;
+	grid-template: 50px 1fr/1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+
+.section__singles div {
+	align-self: center;
+	justify-self: center;
+}
+
+.section__singles div h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color:white;
+    animation-duration: 3s;
+	animation-name: aparecer;	
+}
+
+@keyframes aparecer {
+  from {
+     opacity: 0;
+   }
+   to{
+     opacity: 1;
+   }
+}
+
+.section__singles__portada:hover {
+	width: 200px; height: 200px;
+}

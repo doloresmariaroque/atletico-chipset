@@ -1,0 +1,23 @@
+form {
+	padding: 20px;
+	margin: 100px 400px 80px 400px;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+    text-transform: uppercase;
+    
+    form label{
+        width:100%;
+        padding: 10px;
+        display: inline-block;
+    }
+    
+    form input{
+        display: inline-block;
+        width:50%;
+        margin:5px;
+    }
+}
+

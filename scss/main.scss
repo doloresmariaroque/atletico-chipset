@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//variables
+$font-title:'Montserrat', sans-serif;
+$font-color: whitesmoke;
+
+@import "header";
+@import "footer";
+@import "musica";
+@import "form";
+
+body {
+    font-size: 62.5%;
+    background-image: url(img/Portada.jpg);
+    background-size: cover;
+
+    .section__claim {
+        padding: 50px;
+        margin: 150px 50px 150px 50px;
+        display: flex;
+        justify-content: flex-end;
+
+        .section__claim__h2 {
+            color: $font-color;
+            font-family: $font-title;
+            font-size: 2.3rem;
+            text-align: left;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+
+    }
+    
+    .section__bio {
+        background-color: black;
+
+        .section__bio__integrantes__h3 {
+            color: $font-color;
+            font-size: 1rem;
+            font-family: $font-title;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 3px;
+            margin: 5px;
+        }
+
+        .section__bio__origen__p {
+            color: $font-color;
+            font-size: 0.8rem;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+        }
+    }   
+
+}
+
+

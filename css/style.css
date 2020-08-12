@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.principal {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap; }
+
+header {
+  display: flex;
+  flex-basis: 100%;
+  width: 100%; }
+  header .navbar-nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; }
+  header .navbar-brand img {
+    width: 200px;
+    margin-left: 30px; }
+
+.footer__allpages {
+  background-image: linear-gradient(to left, #33383c, #3d474a);
+  width: 100%;
+  display: flex;
+  flex-basis: 100%;
+  align-items: center; }
+
+.footer__nombre {
+  width: 50%;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 10px; }
+
+.footer__nombre h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: right; }
+
+.footer__social {
+  width: 50%;
+  display: flex; }
+
+.footer__social ul li {
+  display: inline-block;
+  padding: 2px; }
+
+.section__musica {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  width: 100%;
+  margin: 30px 10px 10px 10px;
+  padding: 10px; }
+
+.section__singles {
+  background-color: black;
+  margin: 30px 30px 80px 30px;
+  padding: 40px;
+  display: grid;
+  grid-template: 50px 1fr/1fr 1fr 1fr 1fr;
+  grid-gap: 5px; }
+
+.section__singles div {
+  align-self: center;
+  justify-self: center; }
+
+.section__singles div h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.section__singles__portada:hover {
+  width: 200px;
+  height: 200px; }
+
+form {
+  padding: 20px;
+  margin: 100px 400px 80px 400px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase; }
+  form form label {
+    width: 100%;
+    padding: 10px;
+    display: inline-block; }
+  form form input {
+    display: inline-block;
+    width: 50%;
+    margin: 5px; }
+
+body {
+  font-size: 62.5%;
+  background-image: url(img/Portada.jpg);
+  background-size: cover; }
+  body .section__claim {
+    padding: 50px;
+    margin: 150px 50px 150px 50px;
+    display: flex;
+    justify-content: flex-end; }
+    body .section__claim .section__claim__h2 {
+      color: whitesmoke;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2.3rem;
+      text-align: left;
+      text-transform: uppercase;
+      font-style: italic; }
+  body .section__bio {
+    background-color: black; }
+    body .section__bio .section__bio__integrantes__h3 {
+      color: whitesmoke;
+      font-size: 1rem;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 3px;
+      margin: 5px; }
+    body .section__bio .section__bio__origen__p {
+      color: whitesmoke;
+      font-size: 0.8rem;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      padding: 5px;
+      margin: 5px; }

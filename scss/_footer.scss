@@ -1,0 +1,31 @@
+.footer__allpages {
+	background-image: linear-gradient(to left,#33383c, #3d474a);
+	width: 100%;
+	display: flex;
+	flex-basis: 100%;
+    align-items: center;    
+}
+
+.footer__nombre {
+    width: 50%;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer__nombre h6 {
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.footer__social {
+	width: 50%;
+    display: flex;
+}
+
+.footer__social ul li {
+    display: inline-block;
+    padding: 2px;
+}

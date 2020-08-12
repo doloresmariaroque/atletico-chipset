@@ -1,0 +1,27 @@
+.principal {
+	width: 100%;
+	display: flex;
+    flex-flow: row wrap;
+}
+
+header {
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    
+    .navbar-nav {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .navbar-brand img {
+        width: 200px;
+        margin-left: 30px;
+    }
+
+}
+
